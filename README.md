@@ -1,6 +1,6 @@
 # Yixin Hu
 
-![yhu](images/yhu.png "yhu")
+![yhu](images/yhu.jpg "yhu")
 
 ![v](images/v.jpg "v")
 
