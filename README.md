@@ -6,7 +6,7 @@
 
 ## Where are you from?
 
-I'm from Wuhan, China.
+My hometown Wuhan, China. It was not famous before 2020, and now everyone in the world knows this city!!!
 
 ## IT Interest
 
