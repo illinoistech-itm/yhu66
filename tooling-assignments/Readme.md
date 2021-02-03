@@ -5,3 +5,6 @@
 ![vbox](vbox.jpg "VirtualBox")
 ![vversion](vagrant-version.jpg "vagrant version")
 ![vagrant](vagrant-final.jpg "vagrant tutorial")
+![packerv](packer-version.jpg "packer version")
+![packerbox](paker-box.jpg "paker Box")
+![IDE](IDE-VSC.jpg "IDE")
