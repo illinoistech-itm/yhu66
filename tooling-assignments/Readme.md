@@ -1,3 +1,7 @@
 ![choco](choco-version.jpg "choco")
+![pversion](powershell-2.jpg "powershell version")
 ![pcore](powershell-1.jpg "powershell core")
-
+![gv](git-version.jpg "git version")
+![vbox](vbox.jpg "VirtualBox")
+![vversion](vagrant-version.jpg "vagrant version")
+![vagrant](vagrant-final.jpg "vagrant tutorial")
