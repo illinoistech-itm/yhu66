@@ -1,1 +1,1 @@
-![yhu](images/yhu.png "yhu")
+![choco](tooling-assignments/choco-version.jpg "choco")
