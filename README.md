@@ -6,7 +6,8 @@
 
 ## Where are you from?
 
-My hometown is Wuhan, China. It was not a famous place before 2020, and now everyone in the world knows this city!!! But it's beautiful and I love my hometown.
+My hometown is Wuhan, China. 
+Before 2020, most people only know the three Chinese cities, they were Beijing, Shanghai, and Hong Kong. But now everyone in the world knows my hometown city!!! I'm glad I don't need to explain where is it in China anymore.
 
 ## IT Interest
 
