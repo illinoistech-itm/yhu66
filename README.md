@@ -18,4 +18,4 @@ The initial reason of me for coming to the U.S. to study was to see the concert 
 
 ## Git tutorial
 
-![Git](images/gitit.png "gitit")
+![Git](images/git-it.jpg "git-it")
