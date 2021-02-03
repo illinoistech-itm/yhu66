@@ -14,7 +14,7 @@ UI Design, CSS, and Data Analytic
 
 ## Something Interesting About You
 
-The initial reason of me for coming to the U.S. to study was to see the concert of my favorite singers.
+The initial reason of me for coming to the U.S. to study aborad was to see the concert of my favorite singer.
 
 ## Git tutorial
 
