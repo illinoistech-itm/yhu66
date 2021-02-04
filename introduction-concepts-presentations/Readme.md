@@ -25,9 +25,9 @@
 * ~19:07 - In 2015, what was the ethical dilemma introduced by Google Photos mis-labeling and how did AI contribute to it?
   * Google Photos mistakenly indentified a black/african person as a gorilla. The photo use to classification will show the bias.
 * ~22:43 - In 2016, what was the ethical dilemma introduced by Tesla?
-  * answer here
+  *  The driver doesn't read every sentence of the manual. The attentiveness of the driver drifted for an unknown reason. The car went through under a truck and the driver died. The driver believes the car was driving itself.
 * ~25:43 - In 2017, what was the ethical dilemma presented to Facebook?
-  * answer here
+  * Facebook used to tolerate hate speech and post about the Anti-Rohingya genocide. Facebook used to recognize itself as an information transmitter, it won't need to filter the post of users.
 * ~30:10 - In 2018, what was the ethical dilemma presented to Joyent (the speaker's company)?
   * answer here
 * ~30:31 - What is Bryan's thoughts relating to 1st amendment rights and the right to be a customer of a product?
