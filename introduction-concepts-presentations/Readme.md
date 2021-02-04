@@ -23,7 +23,7 @@
 * ~17:01 - In 2014, what was the ethical dilemma introduced by Uber in Portland Oregon and who were they deceiving?
   * Uber invented Grey Ball software to give regulators a different view of uber on the street.
 * ~19:07 - In 2015, what was the ethical dilemma introduced by Google Photos mis-labeling and how did AI contribute to it?
-  * answer here
+  * Google Photos mistakenly indentified a black/african person as a gorilla. The photo use to classification will show the bias.
 * ~22:43 - In 2016, what was the ethical dilemma introduced by Tesla?
   * answer here
 * ~25:43 - In 2017, what was the ethical dilemma presented to Facebook?
