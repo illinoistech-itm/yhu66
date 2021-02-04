@@ -19,9 +19,9 @@
 * ~12:32 - What was the ethical dilemma Facebook created in 2012 and how did they defend their actions?
   * Facebook Manipulated newsfeed of the users as an experiment. They set users in different types and put positive, neutral, and negative sentiment news to each group. Facebook responded that no text was seen by the researchers, thus it was consistent with Facebook's data use policy. 
 * ~15:20 -  In 2013, what was the ethical dilemma introduced by Zenefits and what were they avoiding?
-  * answer here
+  * The CEO of the Zenefits create a browser plug-in to automatic go through the California software training process.
 * ~17:01 - In 2014, what was the ethical dilemma introduced by Uber in Portland Oregon and who were they deceiving?
-  * answer here
+  * Uber invented Grey Ball software to give regulators a different view of uber on the street.
 * ~19:07 - In 2015, what was the ethical dilemma introduced by Google Photos mis-labeling and how did AI contribute to it?
   * answer here
 * ~22:43 - In 2016, what was the ethical dilemma introduced by Tesla?
