@@ -3,15 +3,15 @@
 [Bryan Cantrill - Andreessen's Corollary: Ethical Dilemmas in Software Engineering](https://www.youtube.com/watch?v=0wtvQZijPzg&feature=youtu.be "Bryan Cantrill - Andreessen's Corollary: Ethical Dilemmas in Software Engineering")
 
 * ~0:45 - Who is the speaker and what is his job at the time of the presentation?
-  He's Bryan Cantrill, he is the CTO at Joyent.
+  * He's Bryan Cantrill, he is the CTO at Joyent.
 * ~2:58 - What is the first principle of Ethics in Software Engineering ~1997
-  Product
+  * Product
 * ~5:20 - What is rule 6.10 of Ethics in Software Engineering ~1997
-  Obey all laws governing their work, insofar as such obedience is consistent with the public health, safety, and welfare.
+  * Obey all laws governing their work, insofar as such obedience is consistent with the public health, safety, and welfare.
 * ~6:45 - With the rise of what in the late 1990s did the first real foreshocks of ethical dilemmas come?
-  The rise of ubiquitous internet.
+  * The rise of ubiquitous internet.
 * ~7:03 - Which company in 1999 was one of the first to bring an ethical "grey area"?
-  Napster
+  * Napster
 * ~9:20 - In 2003 with the launch of Friendster, the speaker mentions that "Social Networking was born crooked," why did he conclude that?
   * answer here
 * ~10:08 - In 2011, what was Mark Andreessen's "prophesy"? And was he correct?
