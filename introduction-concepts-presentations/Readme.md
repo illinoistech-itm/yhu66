@@ -13,11 +13,11 @@
 * ~7:03 - Which company in 1999 was one of the first to bring an ethical "grey area"?
   * Napster
 * ~9:20 - In 2003 with the launch of Friendster, the speaker mentions that "Social Networking was born crooked," why did he conclude that?
-  * answer here
+  * The social network was born for Jonathan Abrams to meet girls.  
 * ~10:08 - In 2011, what was Mark Andreessen's "prophesy"? And was he correct?
-  * answer here
+  * Andreessen’s prophesy — Marc Andreessen, “Why Software Is Eating The World”
 * ~12:32 - What was the ethical dilemma Facebook created in 2012 and how did they defend their actions?
-  * answer here
+  * Facebook Manipulated newsfeed of the users as an experiment. They set users in different types and put positive, neutral, and negative sentiment news to each group. Facebook responded that no text was seen by the researchers, thus it was consistent with Facebook's data use policy. 
 * ~15:20 -  In 2013, what was the ethical dilemma introduced by Zenefits and what were they avoiding?
   * answer here
 * ~17:01 - In 2014, what was the ethical dilemma introduced by Uber in Portland Oregon and who were they deceiving?
