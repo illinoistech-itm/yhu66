@@ -33,12 +33,12 @@
 * ~30:31 - What is Bryan's thoughts relating to 1st amendment rights and the right to be a customer of a product?
   * Don't get fooled into these kind of constitutional arguments when someone behaves unacceptably. We can boot them out of our platform, they're free to post on other platform that allows them, but not in ours if we don't want.
 * ~32:31 - What is the ethical dilemma introduced by Boeing and the 737 MAX software and what were two serious results?
-  * Boeing redeveloped a new 737 and changes the engines which change the way airplane flew. Boeing put a module that detects when the airplane is being flown differently and just keep flying. However Boeing didn't tell the polite about this. The two accidents were Ethiopian Airlines Flight 302 and Lion Air Flight 610.
+  * Boeing redeveloped a new 737 and changes the engines which change the way airplane flew. Boeing put a module that detects when the airplane is being flown differently and just keep flying. However Boeing didn't tell the polite about this, and the software doesn't have enough time to process before the crush. The two accidents were Ethiopian Airlines Flight 302 and Lion Air Flight 610.
 * ~37:35 - What is right for software is not necessarily right for what?
-  * answer here
+  * Software itself cannot speak up and tell us wrong, and we must address our ethical dilemmas directly.
 * ~38:59 - The 2018 ACM Software Ethics is now based on what?
-  * answer here
+  * Principle based
 * ~39:44 - Instead of seeking ethics answers, what should we be doing?
-  * answer here
+  * ASK Questions
 * ~41:14 - What is Andreessen's Corollary?
-  * answer here
+  * • Organizations that facilitate open discussion of ethical dilemmas will benefit from ethical distinction. • They can draw like-minded people who can help perpetuate a system of ethical consequences. • We must understand that, as the footprint of software continues to increase, ethical dilemmas can only expand. • We must stand up for potential dilemmas. • The ethical dilemma is Andreessen's corollary—and it is our common duty to answer it directly!
