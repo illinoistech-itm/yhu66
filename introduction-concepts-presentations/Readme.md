@@ -29,11 +29,11 @@
 * ~25:43 - In 2017, what was the ethical dilemma presented to Facebook?
   * Facebook used to tolerate hate speech and post about the Anti-Rohingya genocide. Facebook used to recognize itself as an information transmitter, it won't need to filter the post of users.
 * ~30:10 - In 2018, what was the ethical dilemma presented to Joyent (the speaker's company)?
-  * answer here
+  * The shooter in Pittsbugh uses Gab, and Joyent provides infrastructure to Gab.
 * ~30:31 - What is Bryan's thoughts relating to 1st amendment rights and the right to be a customer of a product?
-  * answer here
+  * Don't get fooled into these kind of constitutional arguments when someone behaves unacceptably. We can boot them out of our platform, they're free to post on other platform that allows them, but not in ours if we don't want.
 * ~32:31 - What is the ethical dilemma introduced by Boeing and the 737 MAX software and what were two serious results?
-  * answer here
+  * Boeing redeveloped a new 737 and changes the engines which change the way airplane flew. Boeing put a module that detects when the airplane is being flown differently and just keep flying. However Boeing didn't tell the polite about this. The two accidents were Ethiopian Airlines Flight 302 and Lion Air Flight 610.
 * ~37:35 - What is right for software is not necessarily right for what?
   * answer here
 * ~38:59 - The 2018 ACM Software Ethics is now based on what?
