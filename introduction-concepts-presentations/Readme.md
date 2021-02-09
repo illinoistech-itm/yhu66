@@ -75,4 +75,4 @@
 * ~22:48 Success begets what and why?
   * take a bunch of knowledge out of the head of people who using it.
 * ~24:40 Briefly describe the 4 ironies of automation.
-  * 
+  * The smarter the automation, the harder it is to operate. Exceptions are the rule. Automating the easy staff makes the hard stuff harder. The less flexiable party has more power to get its way.
