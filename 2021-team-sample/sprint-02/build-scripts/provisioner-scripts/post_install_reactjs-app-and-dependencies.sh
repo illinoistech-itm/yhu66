@@ -11,7 +11,7 @@ e Startup Script, copy/paste the following command:
 sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u vagrant --hp /home/vagrant
 
 # Change the ownership of your cloned repo -- CHANGE THIS FROM 2021-team-sample to your private repo
-sudo chown -R vagrant:vagrant ~/2021-team-sample
+sudo chown -R vagrant:vagrant ~/yhu66/2021-team-sample
 
 # Install needed dependency
 sudo npm install react react-scripts -g
