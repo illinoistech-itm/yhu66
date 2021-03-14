@@ -4,14 +4,15 @@ set -v
 
 # Preseed your Mysql/MariaDB root password here
 export DEBIAN_FRONTEND=noninteractive
-echo "mariadb-server mysql-server/root_password password $DBPASS" | sudo  debconf-set-selections
-echo "mariadb-server mysql-server/root_password_again password $DBPASS" | sudo debconf-set-selections
+echo "mysql-server/root_password password $DBPASS" | sudo  debconf-set-selections
+echo "mysql-server/root_password_again password $DBPASS" | sudo debconf-set-selections
+
 
 sudo apt-get update
-sudo apt-get install -y mariadb-server 
+sudo apt-get install -y mysql-server 
 
 # Enable the service 
-sudo systemctl enable mariadb.service
+sudo systemctl start mysql
 
 # Inject the username and password for autologin later in a ~/.my.cnf file
 # http://serverfault.com/questions/103412/how-to-change-my-mysql-root-password-back-to-empty/103423#103423
