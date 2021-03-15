@@ -20,7 +20,7 @@ PROJECT_DIR = os.path.join(BASE_DIR, "bugville")
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 #pull secret_key
-with open('/website/secret_key.txt') as f:
+with open('/etc/secret_key.txt') as f:
         SECRET_KEY = f.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
