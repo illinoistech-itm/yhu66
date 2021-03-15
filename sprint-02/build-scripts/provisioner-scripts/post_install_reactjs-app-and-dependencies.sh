@@ -16,4 +16,4 @@ cd /home/vagrant/yhu66/sprint-02/code/ReactMultiPageWebsite
 npm install
 # This will cause the app to autostart on subsequent reboots and launch the app on 192.168.33.33:3000
 pm2 start --name reactjs-project npm -- start --host 192.168.33.33
-cd /home/vagrant/yhu66/sprint-02/code/ReactMultiPageWebsite
+cd /home/vagrant/yhu66/sprint-02/code/website
