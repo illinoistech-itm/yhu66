@@ -10,10 +10,10 @@ npm install pm2@latest -g
 sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u vagrant --hp /home/vagrant
 # Install needed dependency
 npm install react-scripts
-sudo chown -R vagrant:vagrant ~/2021-team02t
-cd /home/vagrant/2021-team02t/sprint-02/code/ReactMultiPageWebsite
+sudo chown -R vagrant:vagrant ~/yhu66
+cd /home/vagrant/yhu66/sprint-02/code/ReactMultiPageWebsite
 # Get project dependencies (npm packages)
 npm install
 # This will cause the app to autostart on subsequent reboots and launch the app on 192.168.33.33:3000
 pm2 start --name reactjs-project npm -- start --host 192.168.33.33
-cd /home/vagrant/2021-team02t/sprint-02/code/ReactMultiPageWebsite
+cd /home/vagrant/yhu66/sprint-02/code/ReactMultiPageWebsite
