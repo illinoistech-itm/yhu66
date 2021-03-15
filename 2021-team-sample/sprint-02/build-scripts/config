@@ -1,4 +1,0 @@
-Host   github.com
-Hostname github.com
-IdentityFile  /home/vagrant/id_rsa_deploy_key_team
-StrictHostKeyChecking no
