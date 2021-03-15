@@ -6,8 +6,7 @@ curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt-get install -y nodejs
 # pm2 is the way to start nodejs applications at boot
 sudo npm install pm2@latest -g
-# To setup th
-e Startup Script, copy/paste the following command:
+# To setup the Startup Script, copy/paste the following command:
 sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u vagrant --hp /home/vagrant
 
 # Change the ownership of your cloned repo -- CHANGE THIS FROM 2021-team-sample to your private repo
