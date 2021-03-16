@@ -11,7 +11,7 @@ sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -
 # Install needed dependency
 npm install react-scripts
 sudo chown -R vagrant:vagrant ~/yhu66
-cd /home/vagrant/yhu66/sprint-02/code/ReactMultiPageWebsite
+cd /home/vagrant/yhu66/sprint-02/code/website
 # Get project dependencies (npm packages)
 npm install
 # This will cause the app to autostart on subsequent reboots and launch the app on 192.168.33.33:3000
