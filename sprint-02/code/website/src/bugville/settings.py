@@ -78,10 +78,6 @@ WSGI_APPLICATION = 'bugville.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'my_db',
-        'USER': 'vagrant',
-        'PASSWORD': 'vagrant',
-        'HOST': 'localhost',
         'OPTIONS': {
             'read_default_file': '/etc/mysql/my.cnf',
         },
