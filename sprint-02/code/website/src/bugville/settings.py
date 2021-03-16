@@ -25,7 +25,7 @@ with open('/etc/secret_key.txt') as f:
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['localhost']
 
 # Application definition
 
