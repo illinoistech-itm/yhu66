@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'my_db',
         'USER': 'vagrant',
-        'PASSWORD': '',
+        'PASSWORD': 'vagrant',
         'HOST': 'localhost',
         'OPTIONS': {
             'read_default_file': '/etc/mysql/my.cnf',
