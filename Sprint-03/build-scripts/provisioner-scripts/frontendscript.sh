@@ -48,7 +48,7 @@ sudo apt install -y python3-pip
 python3 -m pip install --upgrade pip
 
 sudo apt-get install -y python3-dev
-sudo apt-get install -y libmysqlclinet-dev
+sudo apt-get install -y default-libmysqlclient-dev
 sudo apt-get install -y build-essential
 python3 -m pip install mysqlclient
 
