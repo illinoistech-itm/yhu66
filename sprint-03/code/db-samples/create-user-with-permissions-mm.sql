@@ -12,6 +12,6 @@ GRANT REPLICATION SLAVE ON *.* TO 'replicauser'@'$MS2IP' IDENTIFIED BY '$USERPAS
 
 -- Create Django user and give permissions to Website DB
 CREATE USER 'vagrant'@'localhost' IDENTIFIED BY '';
-GRANT ALL ON bugville.* TO 'djangouser'@'%';
+GRANT ALL ON bugville.* TO 'vagrant'@'localhost';
 
 flush privileges;
