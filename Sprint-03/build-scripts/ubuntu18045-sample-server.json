@@ -147,7 +147,7 @@
     {
       "type": "shell",
       "execute_command" : "echo 'vagrant' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'", 
-      "script": "./provisioner-scripts/dbsript.sh",
+      "script": "./provisioner-scripts/dbscript.sh",
       "environment_vars": [
         "DBPASS={{user `database-root-pw`}}",
         "ACCESSFROMIP={{user `database-access-range`}}",
