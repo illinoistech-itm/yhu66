@@ -139,22 +139,25 @@
     },
     {
     "type": "shell",
-  "execute_command" : "echo 'vagrant' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'",
-    "scripts": [
-      "./provisioner-scripts/post_install_vagrant.sh",
-      "./provisioner-scripts/post_install_mysql-install.sh",
-      "./provisioner-scripts/django_script.sh",
-      "./provisioner-scripts/post_install_reactjs-app-and-dependencies.sh"],
 
-    "environment_vars": [
-      "WS1IP={{user `webserver-one-ip`}}",
-      "DBPASS={{user `database-root-pw`}}",
-      "ACCESSFROMIP={{user `database-access-range`}}",
-      "USERPASS={{user `user-database-password`}}",
-      "FIREWALLACCESS={{user `ubuntu-firewall-access-range`}}"
-    ]
-  }
-],
+    "execute_command" : "echo 'vagrant' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'", 
+    "script": "frontendscript.sh",
+    "only": ["frontend"]
+    },
+    {
+      "type": "shell",
+      "execute_command" : "echo 'vagrant' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'", 
+      "script": "dbsript.sh",
+      "environment_vars": [
+        "DBPASS={{user `database-root-pw`}}",
+        "ACCESSFROMIP={{user `database-access-range`}}",
+        "USERPASS={{user `user-database-password`}}",
+        "FIREWALLACCESS={{user `ubuntu-firewall-access-range`}}"
+      ],
+      "only": ["db"]
+    } 
+  ],
+
   "post-processors": [
  {
   "type": "vagrant",
