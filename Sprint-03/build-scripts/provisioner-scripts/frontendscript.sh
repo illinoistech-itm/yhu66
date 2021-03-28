@@ -58,7 +58,7 @@ python3 -m pip install mysqlclient
 python3 -m pip install Django
 python3 -m pip install --upgrade Pillow #Library for images interface with DB
 
-sudo mv /home/yhu66/sprint-03/code/website/secret_key.txt /etc/secret_key.txt
+sudo mv /yhu66/sprint-03/code/website/secret_key.txt /etc/secret_key.txt
 sudo rm -r ./yhu66/sprint-03/code/website/static_root
 python3 ~/yhu66/sprint-03/code/website/src/manage.py migrate
 python3 ~/yhu66/sprint-03/code/website/src/manage.py collectstatic
