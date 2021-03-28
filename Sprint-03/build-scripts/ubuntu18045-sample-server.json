@@ -141,13 +141,13 @@
     "type": "shell",
 
     "execute_command" : "echo 'vagrant' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'", 
-    "script": "frontendscript.sh",
+    "script": "./provisioner-scripts/frontendscript.sh",
     "only": ["frontend"]
     },
     {
       "type": "shell",
       "execute_command" : "echo 'vagrant' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'", 
-      "script": "dbsript.sh",
+      "script": "./provisioner-scripts/dbsript.sh",
       "environment_vars": [
         "DBPASS={{user `database-root-pw`}}",
         "ACCESSFROMIP={{user `database-access-range`}}",
