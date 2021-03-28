@@ -1,4 +1,4 @@
 Host   github.com
 Hostname github.com
-IdentityFile  /home/vagrant/teamkey
+IdentityFile  /home/vagrant/yhukey
 StrictHostKeyChecking no
