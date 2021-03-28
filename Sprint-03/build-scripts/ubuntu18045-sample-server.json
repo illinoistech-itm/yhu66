@@ -116,7 +116,7 @@
   "provisioners": [
     {
     "type": "file",
-    "source": "./teamkey",
+    "source": "./yhukey",
     "destination": "/home/vagrant/"
     },
     {
@@ -130,11 +130,11 @@
       "inline": [
         "mkdir -p /home/vagrant/.ssh",
         "mkdir -p /root/.ssh",
-        "chmod 600 /home/vagrant/teamkey",
-        "cp -v /home/vagrant/teamkey /home/vagrant/.ssh/",
+        "chmod 600 /home/vagrant/yhukey",
+        "cp -v /home/vagrant/yhukey /home/vagrant/.ssh/",
         "cp -v /home/vagrant/config /home/vagrant/.ssh/",
         "cp -v /home/vagrant/config /root/.ssh/",
-        "git clone git@github.com:illinoistech-itm/2021-team02t.git"
+        "git clone git@github.com:illinoistech-itm/yhu66.git"
       ]
     },
     {
