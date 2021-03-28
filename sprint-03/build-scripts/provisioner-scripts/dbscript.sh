@@ -45,7 +45,7 @@ echo "192.168.33.34      db    db.example"    | sudo tee -a /etc/hosts
 sudo hostnamectl set-hostname db
 
 
-# Install mariadb
+# Install mysqldb
 export DEBIAN_FRONTEND=noninteractive
 echo "mysql-server/root_password password $DBPASS" | sudo  debconf-set-selections
 echo "mysql-server/root_password_again password $DBPASS" | sudo debconf-set-selections
