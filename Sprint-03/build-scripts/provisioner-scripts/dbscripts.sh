@@ -71,9 +71,9 @@ echo -e "\ndefault-character-set = utf8mb4\n" >> /home/vagrant/.my.cnf.user
 
 
 # Run SQL command
-sed -i "s/\$ACCESSFROMIP/$ACCESSFROMIP/g" ~/<your_path_to_sql_scripts>/create-user-with-permissions-sample.sql
-sed -i "s/\$USERPASS/$USERPASS/g" ~/<your_path_to_sql_scripts>/create-user-with-permissions-sample.sql
+sed -i "s/\$ACCESSFROMIP/$ACCESSFROMIP/g" ~/yhu66/sprint-03/code/db-samples/create-user-with-permissions-mm.sql
+sed -i "s/\$USERPASS/$USERPASS/g" ~/yhu66/sprint-03/code/db-samples/create-user-with-permissions-mm.sql
 
 
 # This script will create the non-root user named worker and grant permission for it
-sudo mysql -u root < ~/<your_path_to_sql_scripts>/create-user-with-permissions-sample.sql
+sudo mysql -u root < ~/<your_path_to_sql_scripts>/create-user-with-permissions-mm.sql
