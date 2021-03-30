@@ -76,5 +76,14 @@ sed -i "s/\$USERPASS/$USERPASS/g" ~/yhu66/sprint-03/code/db-samples/create-user-
 
 
 # This script will create the non-root user named worker and grant permission for it
-sudo mysql -u root < ~/yhu66/sprint-03/code/db-samples/create-user-with-permissions-mm.sql
+
+# This script will create the database named posts in the mariadb server
 sudo mysql -u root < ~/yhu66/sprint-03/code/db-samples/create-database.sql
+# This script will create the table named comments
+sudo mysql -u root  < ~/yhu66/sprint-03/code/db-samples/create-table.sql
+# This script will create the non-root user named worker and the user for replication
+sudo mysql -u root < ~/yhu66/sprint-03/code/db-samples/create-user-with-permissions-mm.sql
+# This script will insert 3 sample records to the table
+sudo mysql -u root < ~/yhu66/sprint-03/code/db-samples/insert-records.sql
+# This script will select * from comments and print the contents to the screen to make sure it all worked
+sudo mysql -u root < ~/yhu66/sprint-03/code/db-samples/sample-select.sql
