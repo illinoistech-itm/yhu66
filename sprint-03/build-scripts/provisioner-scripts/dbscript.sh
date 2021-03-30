@@ -77,3 +77,4 @@ sed -i "s/\$USERPASS/$USERPASS/g" ~/yhu66/sprint-03/code/db-samples/create-user-
 
 # This script will create the non-root user named worker and grant permission for it
 sudo mysql -u root < ~/yhu66/sprint-03/code/db-samples/create-user-with-permissions-mm.sql
+sudo mysql -u root < ~/yhu66/sprint-03/code/db-samples/create-database.sql
