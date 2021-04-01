@@ -11,7 +11,7 @@ GRANT REPLICATION SLAVE ON *.* TO 'replicauser'@'$MS1IP' IDENTIFIED BY '$USERPAS
 GRANT REPLICATION SLAVE ON *.* TO 'replicauser'@'$MS2IP' IDENTIFIED BY '$USERPASS';
 
 -- Create Django user and give permissions to Website DB
-CREATE USER 'vagrant'@'localhost' IDENTIFIED BY '';
-GRANT ALL ON my_db.* TO 'vagrant'@'localhost';
+CREATE USER 'vagrant'@'frontend' IDENTIFIED BY '';
+GRANT ALL ON my_db.* TO 'vagrant'@'frontend';
 
 flush privileges;
