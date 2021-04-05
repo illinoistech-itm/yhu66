@@ -80,4 +80,3 @@ sudo mysql -u root < ~/yhu66/sprint-03/code/db-samples/create-database.sql
 sudo mysql -u root < ~/yhu66/sprint-03/code/db-samples/create-user-with-permissions-mm.sql
 
 sed -i "s/.*bind-address.*/bind-address = 192.168.33.34/" /etc/mysql/mysql.conf.d/mysqld.cnf
-systemctl mysql restart
