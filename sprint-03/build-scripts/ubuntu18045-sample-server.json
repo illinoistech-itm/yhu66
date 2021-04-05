@@ -164,7 +164,7 @@
   "name": "frontend",
   "vm_name": "frontend",
  "keep_input_artifact": false,
- "output": "../frontend/{{frontend.BuildName}}-{{.Provider}}-{{timestamp}}.box"
+ "output": "../frontend/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box"
  },
 
  {
