@@ -161,18 +161,18 @@
   "post-processors": [
  {
   "type": "vagrant",
-  "vm_name": "frontend",
- "keep_input_artifact": false,
- "output": "../frontend/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box"
+  "name": "frontend",
+  "keep_input_artifact": false,
+  "output": "../frontend/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box",
+  "only": ["frontend"]
  },
 
  {
   "type": "vagrant",
   "name": "db",
-  "vm_name": "db",
  "keep_input_artifact": false,
- "output": "../db/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box"
-
+ "output": "../db/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box",
+ "only": ["db"]
  }
 ]
 }
