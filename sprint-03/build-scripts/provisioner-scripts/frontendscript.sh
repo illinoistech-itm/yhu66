@@ -52,7 +52,6 @@ sudo apt-get install -y default-libmysqlclient-dev
 sudo apt-get install -y build-essential
 python3 -m pip install mysqlclient
 
-sudo mkdir /home/vagrant/.my.cnf
 echo -e "[client]" >> /home/vagrant/.my.cnf
 echo -e "host = 192.168.33.34" >> /home/vagrant/.my.cnf
 echo -e "database = my_db" >> /home/vagrant/.my.cnf
