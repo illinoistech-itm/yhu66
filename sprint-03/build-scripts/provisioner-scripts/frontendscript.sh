@@ -54,9 +54,9 @@ python3 -m pip install mysqlclient
 
 sudo mkdir /home/vagrant/.my.cnf
 echo -e "[client]" >> /home/vagrant/.my.cnf
-echo -e "192.168.33.34" >> /home/vagrant/.my.cnf
+echo -e "host = 192.168.33.34" >> /home/vagrant/.my.cnf
 echo -e "database = my_db" >> /home/vagrant/.my.cnf
-echo -e "user = worker" >> /home/vagrant/.my.cnf
+echo -e "user = vagrant" >> /home/vagrant/.my.cnf
 echo -e "password = " >> /home/vagrant/.my.cnf
 
 
