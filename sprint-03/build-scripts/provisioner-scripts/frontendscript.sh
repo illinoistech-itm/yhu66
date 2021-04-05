@@ -53,16 +53,22 @@ sudo apt-get install -y build-essential
 python3 -m pip install mysqlclient
 
 
+echo "[client]" >> /home/vagrant/.my.cnf
+echo "192.168.33.34" >> /home/vagrant/.my.cnf
+echo "database = my_db" >> /home/vagrant/.my.cnf
+echo "user = worker" >> /home/vagrant/.my.cnf
+echo "password = " >> /home/vagrant/.my.cnf
+
 
 #Django installs
 python3 -m pip install Django
 python3 -m pip install --upgrade Pillow #Library for images interface with DB
 
 
-sudo mv ~/yhu66/sprint-03/code/website/secret_key.txt /etc/secret_key.txt
-sudo rm -r ./yhu66/sprint-03/code/website/static_root
+sudo mv ~/2021-team02t/sprint-03/code/website/secret_key.txt /etc/secret_key.txt
+sudo rm -r ./2021-team02t/sprint-03/code/website/static_root
 
-#python3 ~/yhu66/sprint-03/code/website/src/manage.py migrate
-#python3 ~/yhu66/sprint-03/code/website/src/manage.py collectstatic
+python3 ~/2021-team02t/sprint-03/code/website/src/manage.py migrate
+#python3 ~/2021-team02t/sprint-03/code/website/src/manage.py collectstatic
 #Start Server
-#python3 ~/yhu66/sprint-03/code/website/src/manage.py runserver 0.0.0.0:8000
+#python3 ~/2021-team02t/sprint-03/code/website/src/manage.py runserver 0.0.0.0:3000

@@ -10,6 +10,8 @@ from .forms import UserLoginForm
 
 # Create your views here.
 
+
+
 def login_view(request):
     next = request.GET.get('next')
     form = UserLoginForm(request.POST or None)
@@ -57,6 +59,32 @@ def index(request):
 
     return render(request, 'index.html', context)
 
+
+#register page
+def registerPage(request):
+	return render(request, 'accounts/signup.html', {})
+#not working
+#def register_view(request):
+#    next = request.GET.get('next')
+#    form = UserLoginForm(request.POST or None)
+#    if form.is_valid():
+#        username = form.cleaned_data.get('username')
+#        password = form.cleaned_data.get('password')
+#        user = authenticate(username=username, password=password)
+#        login(request, user)
+#        if next:
+#            return render(request, 'accounts/signup.html', {})
+#        return redirect('/')
+
+#    context ={
+#        'form': form,
+#    }
+
+#    return render(request, "accounts/login.html", context)
+
+#contact page
+def contactPage(request):
+	return render(request, 'contact.html', {})
 
 def blog(request):
 

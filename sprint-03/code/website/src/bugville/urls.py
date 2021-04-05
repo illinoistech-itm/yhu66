@@ -21,7 +21,7 @@ from django.conf import settings
 from django.contrib.auth import views as auth_views
 
 #Calls the page views from our posts app
-from posts.views import index, blog, post, ProfileView, search, login_view
+from posts.views import index, blog, post, ProfileView, search, login_view, registerPage, contactPage
 
 #URLs of site
 urlpatterns = [
@@ -34,6 +34,12 @@ urlpatterns = [
 
     #User Prifile page
     path('profile', ProfileView.as_view(), name='profile'),
+
+    #Registration
+    path('signup', registerPage, name='signup'),
+
+    #Contact page
+    path('contact', contactPage, name='contact'),
 
     #Site Pages
     path('', index, name='index'),
