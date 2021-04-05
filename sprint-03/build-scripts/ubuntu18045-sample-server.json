@@ -161,7 +161,6 @@
   "post-processors": [
  {
   "type": "vagrant",
-  "name": "frontend",
   "vm_name": "frontend",
  "keep_input_artifact": false,
  "output": "../frontend/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box"
