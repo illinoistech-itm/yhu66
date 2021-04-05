@@ -161,9 +161,16 @@
   "post-processors": [
  {
   "type": "vagrant",
+  "name": "frontend",
  "keep_input_artifact": false,
- "frontend": "../frontend/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box",
- "db": "../db/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box"
+ "output": "../frontend/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box"
+ },
+
+ {
+  "type": "vagrant",
+  "name": "db",
+ "keep_input_artifact": false,
+ "output": "../db/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box"
 
  }
 ]
