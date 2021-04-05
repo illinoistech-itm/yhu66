@@ -162,7 +162,9 @@
  {
   "type": "vagrant",
  "keep_input_artifact": false,
- "output": "../build/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box"
+ "frontend.output": "../frontend/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box",
+ "db.output": "../db/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box"
+
  }
 ]
 }
