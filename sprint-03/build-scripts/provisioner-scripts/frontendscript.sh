@@ -52,11 +52,11 @@ sudo apt-get install -y default-libmysqlclient-dev
 sudo apt-get install -y build-essential
 python3 -m pip install mysqlclient
 
-echo -e "[client]" >> /home/vagrant/.my.cnf
-echo -e "host = 192.168.33.34" >> /home/vagrant/.my.cnf
-echo -e "database = my_db" >> /home/vagrant/.my.cnf
-echo -e "user = vagrant" >> /home/vagrant/.my.cnf
-echo -e "password = " >> /home/vagrant/.my.cnf
+echo "[client]" >> /home/vagrant/.my.cnf
+echo "host = 192.168.33.34" >> /home/vagrant/.my.cnf
+echo "database = my_db" >> /home/vagrant/.my.cnf
+echo "user = vagrant" >> /home/vagrant/.my.cnf
+echo "password = " >> /home/vagrant/.my.cnf
 
 
 #Django installs
