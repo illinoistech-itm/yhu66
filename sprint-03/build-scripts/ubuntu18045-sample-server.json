@@ -162,13 +162,15 @@
  {
   "type": "vagrant",
   "name": "frontend",
+  "vm_name": "frontend",
  "keep_input_artifact": false,
- "output": "../frontend/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box"
+ "output": "../frontend/{{frontend.BuildName}}-{{.Provider}}-{{timestamp}}.box"
  },
 
  {
   "type": "vagrant",
   "name": "db",
+  "vm_name": "db",
  "keep_input_artifact": false,
  "output": "../db/{{.BuildName}}-{{.Provider}}-{{timestamp}}.box"
 
