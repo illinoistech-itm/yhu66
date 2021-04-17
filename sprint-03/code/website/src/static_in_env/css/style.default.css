@@ -638,6 +638,7 @@ section.hero {
 section.hero .container {
   padding: 200px 20px;
   position: relative;
+  color: rgba(255, 255, 255, 0);
 }
 
 section.hero h1 {
