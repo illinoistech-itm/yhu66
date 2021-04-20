@@ -1,0 +1,20 @@
+{% extends 'base_files/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section
+	style="background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url({% static 'img/banner.jpg' %}); background-size: cover; background-position: center center"
+	class="hero">
+
+    <div class="form-box">
+
+     	<form method="post" id="login" >
+                {% csrf_token %}
+		{{ form }}
+		<button type="submit">Submit Post</button>
+     	</form>
+
+    </div>
+</section>
+{% endblock content %}
