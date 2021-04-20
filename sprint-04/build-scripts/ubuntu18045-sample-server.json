@@ -116,7 +116,7 @@
   "provisioners": [
     {
     "type": "file",
-    "source": "./Mark-Team-Repo-Key",
+    "source": "./yhukey",
     "destination": "/home/vagrant/"
     },
     {
@@ -130,11 +130,11 @@
       "inline": [
         "mkdir -p /home/vagrant/.ssh",
         "mkdir -p /root/.ssh",
-        "chmod 600 /home/vagrant/Mark-Team-Repo-Key",
-        "cp -v /home/vagrant/Mark-Team-Repo-Key /home/vagrant/.ssh/",
+        "chmod 600 /home/vagrant/yhukey",
+        "cp -v /home/vagrant/yhukey /home/vagrant/.ssh/",
         "cp -v /home/vagrant/config /home/vagrant/.ssh/",
         "cp -v /home/vagrant/config /root/.ssh/",
-        "git clone git@github.com:illinoistech-itm/2021-team02t.git"
+        "git clone git@github.com:illinoistech-itm/yhu66.git"
       ]
     },
     {

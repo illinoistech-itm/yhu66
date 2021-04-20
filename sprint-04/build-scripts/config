@@ -1,4 +1,4 @@
 Host   github.com
 Hostname github.com
-IdentityFile  /home/vagrant/Mark-Team-Repo-Key
+IdentityFile  /home/vagrant/yhukey
 StrictHostKeyChecking no
