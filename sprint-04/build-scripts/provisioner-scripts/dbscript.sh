@@ -71,15 +71,15 @@ echo -e "\ndefault-character-set = utf8mb4\n" >> /home/vagrant/.my.cnf.user
 
 
 # Run SQL command
-sed -i "s/\$ACCESSFROMIP/$ACCESSFROMIP/g" ~/2021-team02t/sprint-03/code/db-samples/*.sql
-sed -i "s/\$USERPASS/$USERPASS/g" ~/2021-team02t/sprint-03/code/db-samples/*.sql
+sed -i "s/\$ACCESSFROMIP/$ACCESSFROMIP/g" ~/yhu66/sprint-04/code/db-samples/*.sql
+sed -i "s/\$USERPASS/$USERPASS/g" ~/yhu66/sprint-04/code/db-samples/*.sql
 
 
 # This script will create the non-root user named worker and grant permission for it
 # This script will create the database named posts in the mariadb server
-sudo mysql -u root < ~/2021-team02t/sprint-03/code/db-samples/create-database.sql
+sudo mysql -u root < ~/yhu66/sprint-04/code/db-samples/create-database.sql
 # This script will create the non-root user named worker and the user for replication
-sudo mysql -u root < ~/2021-team02t/sprint-03/code/db-samples/create-user-with-permissions-mm.sql
+sudo mysql -u root < ~/yhu66/sprint-04/code/db-samples/create-user-with-permissions-mm.sql
 
 #change the bind address
 sed -i "s/.*bind-address.*/bind-address = 192.168.33.34/" /etc/mysql/mysql.conf.d/mysqld.cnf
