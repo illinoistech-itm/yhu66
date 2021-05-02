@@ -1,0 +1,36 @@
+Watching for file changes with StatReloader
+[19/Apr/2021 14:55:08] "GET /makepost HTTP/1.1" 200 9764
+[19/Apr/2021 14:55:08] "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[19/Apr/2021 14:55:08] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 155758
+[19/Apr/2021 14:55:08] "GET /static/css/fontastic.css HTTP/1.1" 200 1266
+[19/Apr/2021 14:55:08] "GET /static/css/custom.css HTTP/1.1" 200 947
+[19/Apr/2021 14:55:08] "GET /static/vendor/%40fancyapps/fancybox/jquery.fancybox.min.css HTTP/1.1" 200 12795
+[19/Apr/2021 14:55:08] "GET /static/css/style.login.css HTTP/1.1" 200 1404
+[19/Apr/2021 14:55:08] "GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+[19/Apr/2021 14:55:08] "GET /static/css/style.default.css HTTP/1.1" 200 44588
+[19/Apr/2021 14:55:08] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[19/Apr/2021 14:55:08] "GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[19/Apr/2021 14:55:08] "GET /static/vendor/%40fancyapps/fancybox/jquery.fancybox.min.js HTTP/1.1" 304 0
+[19/Apr/2021 14:55:08] "GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+[19/Apr/2021 14:55:08] "GET /static/js/front.js HTTP/1.1" 304 0
+[19/Apr/2021 14:55:08] "GET /static/img/banner.jpg HTTP/1.1" 304 0
+[19/Apr/2021 14:55:08] "GET /static/fonts/blog.woff HTTP/1.1" 304 0
+[19/Apr/2021 14:55:10] "GET / HTTP/1.1" 200 10450
+[19/Apr/2021 14:55:10] "GET /static/vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+[19/Apr/2021 14:56:01] "GET / HTTP/1.1" 200 10450
+[19/Apr/2021 14:56:01] "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[19/Apr/2021 14:56:01] "GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+[19/Apr/2021 14:56:01] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[19/Apr/2021 14:56:01] "GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+[19/Apr/2021 14:56:01] "GET /static/vendor/%40fancyapps/fancybox/jquery.fancybox.min.js HTTP/1.1" 304 0
+[19/Apr/2021 14:56:01] "GET /static/js/front.js HTTP/1.1" 304 0
+[19/Apr/2021 14:56:01] "GET /static/img/banner.jpg HTTP/1.1" 304 0
+/home/vagrant/2021-team02t/sprint-04/code/website/src/posts/views.py:105: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'posts.models.Post'> QuerySet.
+  paginator = Paginator(all_post, 4)
+[19/Apr/2021 14:56:02] "GET /blog HTTP/1.1" 200 13209
+[19/Apr/2021 14:56:02] "GET /media/blog-post-2.jpg HTTP/1.1" 200 39059
+[19/Apr/2021 14:56:02] "GET /makepost HTTP/1.1" 200 9764
+[19/Apr/2021 14:56:08] "GET / HTTP/1.1" 200 10450
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
