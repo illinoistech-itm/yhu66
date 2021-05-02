@@ -9,14 +9,14 @@ python3 -m pip install --upgrade pip
 sudo apt-get install -y python3-dev default-libmysqlclinet-dev build-essential
 python3 -m pip install mysqlclient
 
-sudo mv 2021-team02t/code/website/secret_key.txt /etc/secret_key.txt
-sudo rm -r 2021-team02t/code/website/static_root
-python3 ~/2021-team02t/sprint-02/code/website/src/manage.py migrate
-python3 ~/2021-team02t/sprint-02/code/website/src/manage.py collectstatic
+sudo mv yhu/sprint-05/code/website/secret_key.txt /etc/secret_key.txt
+sudo rm -r yhu/sprint-05/code/website/static_root
+python3 ~/yhu/sprint-05/code/website/src/manage.py migrate
+python3 ~/yhu/sprint-05/code/website/src/manage.py collectstatic
 
 #Django installs
 python3 -m pip install Django
 python3 -m pip install --upgrade Pillow #Library for images interface with DB
 
 #Start Server
-python3 ~/2021-team02t/sprint-02/code/website/src/manage.py runserver 0.0.0.0:8000
+python3 ~/yhu/sprint-052/code/website/src/manage.py runserver 0.0.0.0:8000

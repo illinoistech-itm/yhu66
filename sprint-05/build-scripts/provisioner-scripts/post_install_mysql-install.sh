@@ -42,20 +42,20 @@ sudo hostnamectl set-hostname sample-server
 sudo chown -R vagrant:vagrant ~/2021-team02t
 
 # Using sed to replace variables in the scripts with the ENV variables passed
-sed -i "s/\$ACCESSFROMIP/127.0.0.1/g" ~/2021-team02t/sprint-03/code/db-samples/*.sql
-sed -i "s/\$USERPASS/$USERPASS/g" ~/2021-team02t/sprint-03/code/db-samples/*.sql
+sed -i "s/\$ACCESSFROMIP/127.0.0.1/g" ~/yhu/sprint-05/code/db-samples/*.sql
+sed -i "s/\$USERPASS/$USERPASS/g" ~/2yhu/sprint-05/code/db-samples/*.sql
 #sed -i "s/\$DJANGOPASS/$DJANGOPASS/g" ~/tnikolova/2021-team-sample/sprint-02/code/db-samples/*.sql
-sed -i "s/\$MMIP/127.0.0.1/g" ~/2021-team02t/sprint-03/code/db-samples/*.sql
+sed -i "s/\$MMIP/127.0.0.1/g" ~/yhu/sprint-05/code/db-samples/*.sql
 # This script will create the database named posts in the mariadb server
-sudo mysql -u root < ~/2021-team02t/sprint-03/code/db-samples/create-database.sql
+sudo mysql -u root < ~/yhu/sprint-05/code/db-samples/create-database.sql
 # This script will create the table named comments
-sudo mysql -u root  < ~/2021-team02t/sprint-03/code/db-samples/create-table.sql
+sudo mysql -u root  < ~/yhu/sprint-05/code/db-samples/create-table.sql
 # This script will create the non-root user named worker and the user for replication
-sudo mysql -u root < ~/2021-team02t/sprint-03/code/db-samples/create-user-with-permissions-mm.sql
+sudo mysql -u root < ~/yhu/sprint-05/code/db-samples/create-user-with-permissions-mm.sql
 # This script will insert 3 sample records to the table
-sudo mysql -u root < ~/2021-team02t/sprint-03/code/db-samples/insert-records.sql
+sudo mysql -u root < ~/yhu/sprint-05/code/db-samples/insert-records.sql
 # This script will select * from comments and print the contents to the screen to make sure it all worked
-sudo mysql -u root < ~/2021-team02t/sprint-03/code/db-samples/sample-select.sql
+sudo mysql -u root < ~/yhu/sprint-05/code/db-samples/sample-select.sql
 
 # Enable Firewall
 # https://serverfault.com/questions/809643/how-do-i-use-ufw-to-open-ports-on-ipv4-only
