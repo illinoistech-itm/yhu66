@@ -19,4 +19,4 @@ python3 -m pip install Django
 python3 -m pip install --upgrade Pillow #Library for images interface with DB
 
 #Start Server
-python3 ~/yhu/sprint-052/code/website/src/manage.py runserver 0.0.0.0:8000
+python3 ~/yhu/sprint-05/code/website/src/manage.py runserver 0.0.0.0:8000

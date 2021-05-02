@@ -39,7 +39,7 @@ sudo hostnamectl set-hostname sample-server
 # Replace any occurance of 2021-team-sample with the name of your own team private repository #
 ###############################################################################
 
-sudo chown -R vagrant:vagrant ~/2021-team02t
+sudo chown -R vagrant:vagrant ~/yhu66
 
 # Using sed to replace variables in the scripts with the ENV variables passed
 sed -i "s/\$ACCESSFROMIP/127.0.0.1/g" ~/yhu/sprint-05/code/db-samples/*.sql
@@ -65,4 +65,4 @@ ufw --force enable
 ufw allow proto tcp to 0.0.0.0/0 port 22
 # For nodejs app default port
 # ufw allow 3000
-#ufw allow from $FIREWALLACCESS to any port 3306
+#u fw allow from $FIREWALLACCESS to any port 3306
